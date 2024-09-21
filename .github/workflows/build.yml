@@ -29,11 +29,11 @@ jobs:
         cmake --build .
 
     # Only create artifact on a push to xbox
-    - if: github.event_name == 'push' 
-      name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: XeniumTools
-        path: |
-          XeniumTools.iso
-          XeniumTools
+    #- if: github.event_name == 'push' 
+    #  name: Upload Artifact
+    #  uses: actions/upload-artifact@v2
+    #  with:
+    #    name: XeniumTools
+    #    path: |
+    #      XeniumTools.iso
+    #      XeniumTools
