@@ -23,3 +23,4 @@ mkdir build && cd build
 cmake .. -DCMAKE_TOOLCHAIN_FILE=lib/nxdk/share/toolchain-nxdk.cmake
 cmake --build .
 ```
+
